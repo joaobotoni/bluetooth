@@ -1,0 +1,16 @@
+<resources>
+    <!-- Aplicação -->
+    <string name="app_name">Bluetooth</string>
+    <string name="title_cast">Transmitir</string>
+
+    <!-- Dispositivos Próximos (Não Pareados) -->
+    <string name="available_articles">Dispositivos disponíveis</string>
+    <string name="available_devices_subtitle">Buscando aparelhos próximos para conectar</string>
+    <string name="rescan_devices">Buscar novamente</string>
+    <string name="title_unpaired_devices">Não pareados</string>
+
+    <!-- Dispositivos Pareados -->
+    <string name="paired_devices">Dispositivos salvos</string>
+    <string name="paired_devices_subtitle">Conectados anteriormente a este aparelho</string>
+    <string name="title_paired_devices">Pareados</string>
+</resources>

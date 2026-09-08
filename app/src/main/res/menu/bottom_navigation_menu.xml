@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/discover"
+        android:enabled="true"
+        android:icon="@drawable/bluetooth_searching_24px"
+        android:title="@string/title_unpaired_devices"/>
+    <item
+        android:id="@+id/paired"
+        android:enabled="true"
+        android:icon="@drawable/bluetooth_connected_24px"
+        android:title="@string/title_paired_devices"/>
+    <item
+        android:id="@+id/read"
+        android:enabled="true"
+        android:icon="@drawable/cast_24px"
+        android:title="@string/title_cast"/>
+
+</menu>
