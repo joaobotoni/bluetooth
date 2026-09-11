@@ -3,11 +3,14 @@ package com.botoni.bluetooth.ui.states;
 public final class DeviceState {
     private final String name;
     private final String address;
-    private final Status status;
-    public DeviceState(String name, String address, Status status) {
+    private final Bond bond;
+    private final boolean connected;
+
+    public DeviceState(String name, String address, Bond bond, boolean connected) {
         this.name = name;
         this.address = address;
-        this.status = status;
+        this.bond = bond;
+        this.connected = connected;
     }
 
     public String getName() {
@@ -18,7 +21,11 @@ public final class DeviceState {
         return address;
     }
 
-    public Status getStatus() {
-        return status;
+    public Bond getBond() {
+        return bond;
+    }
+
+    public boolean isConnected() {
+        return connected;
     }
 }

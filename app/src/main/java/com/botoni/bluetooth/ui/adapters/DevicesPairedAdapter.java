@@ -17,7 +17,6 @@ public class DevicesPairedAdapter extends RecyclerView.Adapter<DevicesPairedAdap
     public interface OnItemClickListener {
         void onClick(DeviceState device);
     }
-
     private final List<DeviceState> devices;
     private final OnItemClickListener onItemClickListener;
 

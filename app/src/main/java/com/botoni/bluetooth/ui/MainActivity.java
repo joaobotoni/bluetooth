@@ -1,5 +1,7 @@
 package com.botoni.bluetooth.ui;
 
+import android.bluetooth.BluetoothDevice;
+import android.content.IntentFilter;
 import android.os.Build;
 import android.os.Bundle;
 
@@ -12,12 +14,12 @@ import androidx.core.view.WindowInsetsCompat;
 import androidx.fragment.app.Fragment;
 
 import com.botoni.bluetooth.R;
+import com.botoni.bluetooth.broadcast.BluetoothBroadcastReceiver;
 import com.botoni.bluetooth.ui.fragments.DevicesFragment;
 import com.botoni.bluetooth.ui.fragments.DevicesPairedFragment;
 import com.botoni.bluetooth.ui.fragments.MainFragment;
 import com.google.android.material.navigation.NavigationBarView;
 
-@RequiresApi(api = Build.VERSION_CODES.S)
 public class MainActivity extends AppCompatActivity {
 
     private NavigationBarView navigationBarView;
